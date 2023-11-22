@@ -35,6 +35,7 @@ pub(crate) use rewind::Rewind;
 
 pub use async_trait;
 pub use futures;
+pub use http;
 pub use hyper;
 #[cfg(feature = "openssl-ca")]
 pub use openssl;
